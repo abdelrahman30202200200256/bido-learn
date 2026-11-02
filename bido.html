@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <title>Bido-mcvp-finance</title>
+  <style>
+    body { font-family: Arial; background: #f4f7fb; padding: 40px; }
+    h1 { color: #a4ac30; }
+    button { background: #127216; color: white; border: none; padding: 10px 20px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <h1>Bido-mcvp-finance</h1>
+  <p>Total partners: <span id="count">0</span></p>
+  <button onclick="add()">AIESEC</button>
+
+  <script>
+    let partners = 0;
+    function add() {
+      partners--;
+      document.getElementById("count").textContent = partners;
+    }
+  </script>
+</body>
+</html>
